@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Feedfback Form</title>
+</head>
+<body>
+    <form class="clone">
+        <h1>FEEDBACK FORM</h1>
+        <hr>
+        <div>
+            <h2>Name</h2>
+        </div>
+        <div>
+            <input type="text" placeholder="Enter your name" maxlength="25" class="box">
+        </div>
+        <div><h2>Email</h2></div>
+        <div>
+            <input type="email" placeholder="Enter your mail" class="box">
+        </div>
+        <div>
+            <label for="foods"><h2>Which cuisines did you like the most</h2></label>
+            <input list="foods" name="foods">
+            <datalist id="foods">
+                <option value="Indo chinese"></option>
+                <option value="Indian"></option>
+                <option value="American"></option>
+                <option value="Indo american"></option>
+            </datalist>
+        </div>
+        <div><h2>Feedback</h2>
+            <textarea rows="10" cols="30" class="lox"></textarea>
+        </div>
+        <div>
+            <input type="submit" class="sub">
+        </div>
+     </form>
+
+    
+
+
+</body>
+</html>

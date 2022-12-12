@@ -1,0 +1,46 @@
+body{
+    background: linear-gradient(120deg,#2980b9,#8e44ad);
+    font-family: montserrat;
+}
+.center{
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    background: white;
+    width: 400px;
+    border-radius: 20px;
+}
+.center h1{
+    text-align: center;
+    padding: 0 0 20px 0;
+    font-family: sans-serif;
+}
+.center form{
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+.txt{
+    position: relative;
+    border-bottom: 2px solid silver;
+    margin: 30px;
+}
+.txt input{
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+}
+.txt label{
+    top: 50%;
+    left: 5px;
+    color: #adadad;
+    position: absolute;
+    transform: translateY(-50%);
+}
+.txt span::before{
+    content: '';
+    position: absolute;
+    top: 40px;
+    width: 0%;
+}

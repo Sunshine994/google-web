@@ -1,0 +1,16 @@
+.hero{
+    background-color: aqua;
+}
+.hero p{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 55px;
+}
+.main ul li{
+    display: inline;
+}
+.mmm{
+   display: flex;
+   margin-left: 10px;
+
+}
