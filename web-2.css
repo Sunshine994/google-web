@@ -28,6 +28,7 @@ body{
 }
 .navbar ul li{
     display: inline-block;
+    
 }
 .navbar a{
     color: #fff;
